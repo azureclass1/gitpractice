@@ -4,6 +4,21 @@
         "parameters": {},
         "functions": [],
         "variables": {},
-        "resources": [],
+        "resources": [
+            {
+                "name": "gitaghtestasskjh",
+                "type": "Microsoft.Storage/storageAccounts",
+                "apiVersion": "2021-04-01",
+                "tags": {
+                    "displayName": "This is the testing code for git"
+                },
+                "location": "[resourceGroup().location]",
+                "kind": "StorageV2",
+                "sku": {
+                    "name": "Standard_LRS",
+                    "tier": "Standard"
+                }
+            }
+        ],
         "outputs": {}
     }
